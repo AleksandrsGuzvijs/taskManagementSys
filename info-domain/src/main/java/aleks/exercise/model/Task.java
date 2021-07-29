@@ -10,14 +10,14 @@ public class Task {
     @Column(nullable = false, updatable = false)
     private Long id;
     private String name;
-    private int timeSpent;
+    private double timeSpent;
     private boolean taskDone;
     private String assignee;
     private String taskGroup;
 
     protected Task() {}
 
-    public Task(String name, int timeSpent, boolean taskDone, String assignee, String taskGroup) {
+    public Task(String name, double timeSpent, boolean taskDone, String assignee, String taskGroup) {
         this.name = name;
         this.timeSpent = timeSpent;
         this.taskDone = taskDone;
@@ -41,11 +41,11 @@ public class Task {
         this.name = name;
     }
 
-    public int getTimeSpent() {
+    public double getTimeSpent() {
         return timeSpent;
     }
 
-    public void setTimeSpent(int timeSpent){
+    public void setTimeSpent(double timeSpent){
         this.timeSpent = timeSpent;
     }
 
