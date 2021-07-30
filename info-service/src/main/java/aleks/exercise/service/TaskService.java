@@ -1,6 +1,6 @@
 package aleks.exercise.service;
 
-import aleks.exercise.dao.TaskRepository;
+import aleks.exercise.repo.TaskRepository;
 import aleks.exercise.model.Task;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

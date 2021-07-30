@@ -1,4 +1,4 @@
-package aleks.exercise.dao;
+package aleks.exercise.repo;
 
 import aleks.exercise.model.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
